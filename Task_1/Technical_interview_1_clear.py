@@ -92,6 +92,30 @@ while(n != m):
 matrix = []
 for i in range(n):
     matrix.append(list(read_floats()))
+    
+matrix0 = [[-1, 0,-2], 
+           [ 2,-1, 5], 
+           [ 3,-2, 4]]
+
+matrix1 = [[ 5, 2,-2], 
+           [ 2, 0, 3], 
+           [ 1,-2, 4]]
+
+matrix2 = [[ 2, 7, 3],
+            [ 3, 9, 4],
+            [ 1, 5, 3]]
+
+matrix3 = [[ 2, 7, 3, 4],
+           [ 3, 9, 4, 5],
+           [ 1, 5, 3, 6],
+           [ 3, 1, 3, 1]]
+
+matrix4 =  [[0,0],
+            [0,0]]
+
+matrix5 = [[-1, 2,-2], 
+          [ 2,-1, 5], 
+          [ 3,-2, 4]]
 
 matrix = inverse(matrix)
 if matrix != None:
